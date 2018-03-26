@@ -90,7 +90,7 @@
             <a href="<?php echo filter_input(INPUT_SERVER, '__DIR__').'/konkurrence/dinturnering';?>"><img class="img-responsive tournament-image center-block" src="/images/logo/custom-logo.png" alt="Din Tournament" height="80"></a>
           </div>
             <div>
-            <h4>NB! Nøvling LAN Week tager forbehold for antal deltagere, og afholder kun CounterStrike:GO ved mere end 35 pladser solgt!</h4>
+            <h4>NB! Nøvling LAN Week tager forbehold for antal deltagere, og afholder kun CounterStrike:GO ved mere end 40 pladser solgt!</h4>
             </div>
         </div>
       </div>
@@ -107,7 +107,7 @@
           <img class="img-rounded hidden-xs" src="images/logo-program.PNG" alt="program-logo" height="170px" width="170px">
         </div>
         <div class="media-body">
-          <p>Læs her program oversigten over det kommende NLW - Programmet for NLW #19 er ikke opdateret endnu</p>
+          <p>Læs her program oversigten over det kommende NLW - Programmet for NLW #20 er ikke opdateret endnu</p>
           <p><a class="btn btn-default btn-lg" href="<?php echo filter_input(INPUT_SERVER, '__DIR__').'/program';?>" role="button">Program</a></p>
         </div>
       </div>

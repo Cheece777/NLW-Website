@@ -19,7 +19,7 @@
               <li class="col-xs-4">
                 <ul class="header-right-div">
                   <li class="header-right-div-li">
-                    <p><b><h2>NLW #19  <br> 23. - 25. marts</h2></b></p>
+                    <p><b><h2>NLW #20  <br> 21. - 23. september</h2></b></p>
                   </li>
                   <li class="header-right-div-li">
                     
@@ -28,7 +28,7 @@
 
                     <script>
                     // Set the date we're counting down to
-                    var countDownDate = new Date("Mar 23, 2018 18:00:00").getTime();
+                    var countDownDate = new Date("Sep 21, 2018 18:00:00").getTime();
 
                     // Update the count down every 1 second
                     var x = setInterval(function() {
