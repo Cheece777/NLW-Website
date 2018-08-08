@@ -14,7 +14,35 @@
           <div class="row">
             <ul class="header-div">
               <li class="col-xs-8">
-                <a href="/"><img class="img-responsive hidden-md hidden-sm hidden-xs" src="<?php echo filter_input(INPUT_SERVER, '__DIR__').'/images/nlw-banner2.png';?>" alt="NLW Logo"><img class="img-responsive hidden-lg hidden-xs" src="<?php echo filter_input(INPUT_SERVER, '__DIR__').'/images/nlw-banner3.png';?>" alt="NLW Logo"></a>
+                  <div class="row">
+                      <a href="/"><img class="img-responsive hidden-md hidden-sm hidden-xs" src="<?php echo filter_input(INPUT_SERVER, '__DIR__').'/images/nlw-banner2.png';?>" alt="NLW Logo"><img class="img-responsive hidden-lg hidden-xs" src="<?php echo filter_input(INPUT_SERVER, '__DIR__').'/images/nlw-banner3.png';?>" alt="NLW Logo"></a>
+                  </div>
+
+<div class="row" style="margin-left: 5px">
+    <h4 style="color: #ffffff">Antal ledige pladser tilbage: &nbsp;<span id="seats"> </span> ud af 72.</h4>
+
+    <h4 style="color: #ffffff">Størrelse af præmiepulje udregnet fra antal deltagere</h4>
+        <div class="progress" style="height:40px">
+
+            <div class="progress-bar" id="progressbarProcent" style="height:40px"><h4><span id="procentSeats"> </span> ud af 3000 kr.</h4></div>
+        </div>
+    
+    <script>
+        var soldSeats = 15;  // Solgte pladser (Her får vi forhåbentlig en API)
+        var totalSeats = 72; // Så mange pladser vi i alt har
+        var procentvis = soldSeats/totalSeats*100;
+        var fixedProcentvis = procentvis.toFixed(0);
+        var procentvisString = fixedProcentvis;
+        var totalPrizePool = 3000;
+
+        var remainingSeats = totalSeats - soldSeats;
+        document.getElementById("seats").innerHTML = remainingSeats;
+        document.getElementById("procentSeats").innerHTML = totalPrizePool/100*procentvisString;
+        document.getElementById("progressbarProcent").style.width = fixedProcentvis + "%";
+
+
+    </script>
+</div>
               </li>
               <li class="col-xs-4">
                 <ul class="header-right-div">
@@ -62,9 +90,10 @@
               </li>
             </ul>
           </div>
+
         </div>
         
-        <div class="container-fluid">
+        <div class="container-fluid" style="margin-top: -4px">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-   
 
 
+    <script language="JavaScript" src="webalizer/scripts.js"></script>
     <script>
         $ch = curl_init("https://api.place2book.com/event_api/available_tickets"); // such as http://example.com/example.xml
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -11,7 +11,7 @@
         $data = curl_exec($ch);
         curl_close($ch);
     </script>
-    <script language="JavaScript" src="webalizer/scripts.js"></script>
+
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
