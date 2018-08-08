@@ -19,7 +19,7 @@
       </div>
       <div class="panel-body">
         <p>Nøvling LAN Week afholdes ca. 3 gange årligt.</p>
-        <p>Næste NLW #19 afholdes fra 23. marts kl. 18:00 til  25. marts kl. 10:00.</p>
+        <p>Næste NLW #20 afholdes fra 21. september kl. 18:00 til  23. september kl. 10:00.</p>
       </div>
     </div>
   

@@ -14,7 +14,7 @@ html {
 }
 body {
   margin: 0;
-  background-image: url("/images/8bit-background.png");
+  background-image: url("/images/fortnite-backgroundfade.jpg");
   background-repeat: repeat-x; //no-repeat
 }
 
@@ -59,6 +59,16 @@ body {
 .banner-cs {
   background-image: url("/images/banner/cs-banner.png");
   background-position: left top;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 100px;
+}
+
+.banner-fortnite {
+  background-image: url("/images/banner/fortnitebanner.jpg");
+  background-position: center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -7103,4 +7113,9 @@ a.list-group-item-danger.active:focus {
 }
 .popover {
   color: #222222;
+}
+
+.col-md-6-facebook{
+  width: 50%;
+  height: 800px;
 }

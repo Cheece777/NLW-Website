@@ -71,9 +71,13 @@
           <h1 class="panel-title-large">Konkurrencer</h1>
         </div>
         <div class="panel-body header-div">
-          <div class="col-md-6 col-sm-6 col-xs-12 header-div-sub">
+      <!--    <div class="col-md-6 col-sm-6 col-xs-12 header-div-sub">
             <a  href="<?php echo filter_input(INPUT_SERVER, '__DIR__').'/konkurrence/counterstrike';?>"><img class="img-responsive tournament-image center-block" src="/images/logo/cs-logo.png" alt="CS Tournament" height="80"></a>
-          </div>
+          </div> -->
+            <div class="col-md-6 col-sm-6 col-xs-12 header-div-sub">
+                <a  href="<?php echo filter_input(INPUT_SERVER, '__DIR__').'/konkurrence/fortnite';?>"><img class="img-responsive tournament-image center-block" src="/images/logo/fortnite-logo-new.png" alt="Fortnite Tournament" height="80"></a>
+                <!--<button type="button" class="btn btn-default">Tilmeld</button>-->
+            </div>
           <div class="col-md-6 col-sm-6 col-xs-12 header-div-sub">
             <a href="<?php echo filter_input(INPUT_SERVER, '__DIR__').'/konkurrence/trackmania';?>"><img class="img-responsive tournament-image center-block" src="/images/logo/trackmania-logo.png" alt="TM Tournament" height="80"></a>
           </div>
@@ -90,7 +94,7 @@
             <a href="<?php echo filter_input(INPUT_SERVER, '__DIR__').'/konkurrence/dinturnering';?>"><img class="img-responsive tournament-image center-block" src="/images/logo/custom-logo.png" alt="Din Tournament" height="80"></a>
           </div>
             <div>
-            <h4>NB! Nøvling LAN Week tager forbehold for antal deltagere, og afholder kun CounterStrike:GO ved mere end 40 pladser solgt!</h4>
+       <!--     <h4>NB! Nøvling LAN Week tager forbehold for antal deltagere, og afholder kun CounterStrike:GO ved mere end 40 pladser solgt!</h4>   -->
             </div>
         </div>
       </div>

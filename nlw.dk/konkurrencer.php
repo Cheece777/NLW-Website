@@ -18,8 +18,12 @@
       <h1 class="panel-title-large">Konkurrencer</h1>
     </div>
     <div class="panel-body header-div">
-          <div class="col-md-4 col-sm-6 col-xs-6 header-div-sub">
+      <!--  <div class="col-md-4 col-sm-6 col-xs-6 header-div-sub">
             <a  href="<?php echo filter_input(INPUT_SERVER, '__DIR__').'/konkurrence/counterstrike';?>"><img class="img-responsive tournament-image center-block" src="/images/logo/cs-logo.png" alt="CS Tournament" height="80"></a>
+            <button type="button" class="btn btn-default">Tilmeld</button>
+        </div>  -->
+        <div class="col-md-4 col-sm-6 col-xs-6 header-div-sub">
+            <a  href="<?php echo filter_input(INPUT_SERVER, '__DIR__').'/konkurrence/fortnite';?>"><img class="img-responsive tournament-image center-block" src="/images/logo/fortnite-logo.png" alt="Fortnite Tournament" height="80"></a>
             <!--<button type="button" class="btn btn-default">Tilmeld</button>-->
           </div>
           <div class="col-md-4 col-sm-6 col-xs-6 header-div-sub">
