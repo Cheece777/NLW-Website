@@ -4,13 +4,7 @@
 
 
     <script language="JavaScript" src="webalizer/scripts.js"></script>
-    <script>
-        $ch = curl_init("https://api.place2book.com/event_api/available_tickets"); // such as http://example.com/example.xml
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        curl_setopt($ch, CURLOPT_HEADER, 0);
-        $data = curl_exec($ch);
-        curl_close($ch);
-    </script>
+
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">

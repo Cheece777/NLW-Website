@@ -29,7 +29,7 @@
     </div>
 
     <div class="panel-body">
-        <p>I år har vi 2 forskellige former for gamemodes i Fortnite Battle Royale. Kan være med til at bestemme hvilke af disse 2 gamemodes I fortrækker at spille til LAN'et.
+        <p>I år har vi 2 forskellige former for gamemodes i Fortnite Battle Royale. I kan være med til at bestemme hvilke af disse 2 gamemodes I fortrækker at spille til LAN'et.
             <br />Hvilken gamemode vi spiller, vil blive bestemt via. en afstemning til selve NLW. Ved mange deltagere/stemmer kan begge turneringer blive en realitet.</p>
         <h2><b>Gamemode: Solo</b></h2>
     </div>

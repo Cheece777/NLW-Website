@@ -5,7 +5,9 @@
       
       <!-- ### HEADER ### -->
         <script type="text/javascript" src="webalizer/scripts.js"></script>
+<script>
 
+</script>
       <script src="<?php echo filter_input(INPUT_SERVER, '__DIR__').'/dist/js/jquery-1.12.4.min.js';?>"></script>
       <script src="<?php echo filter_input(INPUT_SERVER, '__DIR__').'/dist/js/bootstrap.min.js';?>"></script>
       
@@ -19,28 +21,111 @@
                   </div>
 
 <div class="row" style="margin-left: 5px">
-    <h4 style="color: #ffffff">Antal ledige pladser tilbage: &nbsp;<span id="seats"> </span> ud af 72.</h4>
+    <h4 style="color: #ffffff">Antal ledige pladser tilbage: &nbsp;<b><span id="seats"> </span> ud af 73</b></h4>
 
-    <h4 style="color: #ffffff">Størrelse af præmiepulje udregnet fra antal deltagere</h4>
+    <h4 style="color: #ffffff">Størrelse af præmiepulje udregnet fra antal deltagere (Maks 3000 kr.)</h4>
         <div class="progress" style="height:40px">
 
-            <div class="progress-bar" id="progressbarProcent" style="height:40px"><h4><span id="procentSeats"> </span> ud af 3000 kr.</h4></div>
+            <div class="progress-bar" id="progressbarProcent" style="height:40px"><h4><span id="procentSeats"> </span> kr.</h4></div>
         </div>
     
     <script>
-        var soldSeats = 15;  // Solgte pladser (Her får vi forhåbentlig en API)
-        var totalSeats = 72; // Så mange pladser vi i alt har
-        var procentvis = soldSeats/totalSeats*100;
-        var fixedProcentvis = procentvis.toFixed(0);
-        var procentvisString = fixedProcentvis;
-        var totalPrizePool = 3000;
+     /*   function httpGetAsync(url, callback)
+        {
+            let xmlHttp = new window.XMLHttpRequest();
+            xmlHttp.onreadystatechange = function() {
+                if (xmlHttp.readyState === 4) {
+                    if (xmlHttp.status === 200) {
+                        var response = xmlHttp.getResponseHeader("Available-Tickets"); // Eller available-tickets, eller Available-Tickets
+                        callback(parseInt(response));
+                    } else {
+                        console.error("Got wrong status code");
+                    }
+                }
+            };
+            xmlHttp.open("GET", url, true); // true for asynchronous
+            xmlHttp.setRequestHeader("X-PLACE2BOOK-API-TOKEN", "4defa1c56d8e554f7897d4ebf29c3c3c");
+            xmlHttp.setRequestHeader("X-PLACE2BOOK-EVENT-ID", "131910");
+            xmlHttp.timeout = 5000;
+            xmlHttp.send();
+        }
 
-        var remainingSeats = totalSeats - soldSeats;
-        document.getElementById("seats").innerHTML = remainingSeats;
-        document.getElementById("procentSeats").innerHTML = totalPrizePool/100*procentvisString;
-        document.getElementById("progressbarProcent").style.width = fixedProcentvis + "%";
+        function handler(availableTickets){
+            var remainingSeats = availableTickets;
+
+            var totalSeats = 72; // Så mange pladser vi i alt har
+            var soldSeats = totalSeats-remainingSeats;  // Solgte pladser
+
+            var procentvis = soldSeats/totalSeats*100;
+            var fixedProcentvis = procentvis.toFixed(0);
+            var procentvisString = fixedProcentvis;
+            var totalPrizePool = 3000;
 
 
+            document.getElementById("seats").innerHTML = remainingSeats;
+            document.getElementById("procentSeats").innerHTML = totalPrizePool/100*procentvisString;
+            document.getElementById("progressbarProcent").style.width = fixedProcentvis + "%";
+        }
+
+        const url = 'https://api.place2book.com/event_api/available_tickets';
+        httpGetAsync(url, handler);
+        */
+
+        // var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
+
+        function httpGetAsync(url, callback)
+        {
+
+            let xmlHttp = new window.XMLHttpRequest();
+            const proxyUrl = "https://cors-anywhere.herokuapp.com/" + url;
+            xmlHttp.onreadystatechange = function() {
+                if (xmlHttp.readyState === 4) {
+                    if (xmlHttp.status === 200) {
+                        var response = xmlHttp.getResponseHeader("Available-Tickets");
+                        callback(parseInt(response));
+                    } else {
+                        console.error("Got wrong status code");
+                        console.log(xmlHttp.responseText);
+                    }
+                }
+            };
+            xmlHttp.open("GET", proxyUrl, true);
+            xmlHttp.setRequestHeader("X-PLACE2BOOK-API-TOKEN", "4defa1c56d8e554f7897d4ebf29c3c3c");
+            xmlHttp.setRequestHeader("X-PLACE2BOOK-EVENT-ID", "131910");
+            xmlHttp.timeout = 20000;
+            xmlHttp.send();
+        }
+
+        function handler(availableTickets){
+            var remainingSeats = availableTickets;
+            var totalSeats = 73; // Så mange pladser vi i alt har
+            var soldSeats = totalSeats-remainingSeats;  // Solgte pladser
+
+            var procentvis = soldSeats/totalSeats*100;
+            var fixedProcentvis = procentvis.toFixed(0);
+            var procentvisString = fixedProcentvis;
+            var totalPrizePool = 3000;
+
+
+            document.getElementById("seats").innerHTML = remainingSeats;
+            document.getElementById("procentSeats").innerHTML = totalPrizePool/100*procentvisString;
+            document.getElementById("progressbarProcent").style.width = fixedProcentvis + "%";
+        }
+
+        const serviceUrl = 'https://api.place2book.com/event_api/available_tickets';
+        httpGetAsync(serviceUrl, handler);
+
+     //   var soldSeats = 15;  // Solgte pladser (Her får vi forhåbentlig en API)
+     //   var totalSeats = 72; // Så mange pladser vi i alt har
+     //   var procentvis = soldSeats/totalSeats*100;
+     //   var fixedProcentvis = procentvis.toFixed(0);
+     //   var procentvisString = fixedProcentvis;
+     //   var totalPrizePool = 3000;
+
+      //  var remainingSeats = totalSeats - soldSeats;  // <----- her jeg gerne vil have available tickets ind
+    //    document.getElementById("seats").innerHTML = remainingSeats;
+     //   document.getElementById("procentSeats").innerHTML = totalPrizePool/100*procentvisString;
+      //  document.getElementById("progressbarProcent").style.width = fixedProcentvis + "%";
     </script>
 </div>
               </li>

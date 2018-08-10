@@ -13,24 +13,25 @@
   </tr>
   <tr>
     <td>19:30</td>
-    <td><p>Tilmelding til CS:GO sidste chance</p>
+    <td><p>Tilmelding til Fortnite sidste chance</p>
       <p><b>Konkurrence -</b> Minecraft serveren starter</p></td>
   </tr>
   <tr>
     <td>20:00</td>
-    <td><p><b>Konkurrence -</b> CS:GO starter</p>
-        <p>Spillerunde #1 går i gang</p></td>
+    <td><p><b>Konkurrence -</b> Fortnite Solo starter</p>
+        <p>Det fælles ready-up game for Fortnite starter!</p></td>
   </tr>
   <tr>
     <td>22:00</td>
-    <td>CS:GO spillerunde #2 går i gang</td>
+    <td><p><b>Konkurrence -</b> Fortnite Duo starter</p>
+        <p>Tid til Fortnite Duo (Hvis dette er blevet stemt igennem)</p></td>
   </tr>
   <tr>
     <td>00:00</td>
-    <td>CS:GO spillerunde #3 går i gang - CS:GO fortsætter lørdag</td>
+    <td><p><b>Konkurrence -</b> Tid afsat til Fortnite Duo konkurrencen (Husk at få spillet Fortnite Solo games også!)</p></td>
   </tr>
   <tr>
     <td>01:30</td>
-      <td><b>Konkurrence -</b> TrackMania server åbnes og turneringen starter - Vinder kåres derefter</td>
+      <td><p><b>Konkurrence -</b> TrackMania server åbnes og turneringen starter - Vinder kåres derefter</p></td>
   </tr>
 </table>
