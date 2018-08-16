@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d58e8182-3650-4b81-af0c-40aed2999bb3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nlw.dk/includes/upper-body.php" afterPath="$PROJECT_DIR$/nlw.dk/includes/upper-body.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nlw.dk/index.php" afterPath="$PROJECT_DIR$/nlw.dk/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nlw.dk/konkurrence/fortnite.php" afterPath="$PROJECT_DIR$/nlw.dk/konkurrence/fortnite.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nlw.dk/program-includes/fredag.php" afterPath="$PROJECT_DIR$/nlw.dk/program-includes/fredag.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nlw.dk/program-includes/lordag.php" afterPath="$PROJECT_DIR$/nlw.dk/program-includes/lordag.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nlw.dk/program.php" afterPath="$PROJECT_DIR$/nlw.dk/program.php" />
-    </list>
+    <list default="true" id="d58e8182-3650-4b81-af0c-40aed2999bb3" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -327,12 +319,12 @@
       <workItem from="1533405331810" duration="1902000" />
       <workItem from="1533489854716" duration="3625000" />
       <workItem from="1533551117470" duration="6897000" />
-      <workItem from="1533581312943" duration="34226000" />
+      <workItem from="1533581312943" duration="35523000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47203000" />
+    <option name="totallyTimeSpent" value="48500000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -759,16 +751,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nlw.dk/includes/upper-body.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#0;n#nav#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#0;n#nav#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#1;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#0;n#nav#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#0;n#nav#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#0;n#nav#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#nav#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="79">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
