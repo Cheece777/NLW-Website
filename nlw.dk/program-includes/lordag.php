@@ -12,10 +12,6 @@
     <td>Morgenmaden sættes væk</td>
   </tr>
   <tr>
-    <td>11:30</td>
-      <td><p><b>Konkurrence -</b> Tid afsat til Fortnite Duo</p></td>
-  </tr>
-  <tr>
     <td>12:30</td>
     <td><b>Frokost -</b> Der kan købes varme pølsehorn i kiosken!</td>
   </tr>
@@ -24,9 +20,13 @@
     <td><p><b>Konkurrence -</b> Keyboard Kast</p>
         <p>Præmie overrækkes kort efter endt konkurrence</p></td>
   </tr>
+    <tr>
+        <td>14:30</td>
+        <td><p><b>Konkurrence -</b> Fortnite Duo - Sidste chance for tilmelding</p></td>
+    </tr>
   <tr>
-    <td>16:00</td>
-    <td><p><b>Konkurrence -</b> Tid afsat til Fortnite Duo</p></td>
+    <td>15:00</td>
+    <td><p><b>Konkurrence -</b> Fortnite Duo - Starter</p></td>
   </tr>
   <tr>
     <td>17:30</td>
@@ -45,12 +45,12 @@
     </tr>
     <tr>
         <td>20:00</td>
-        <td><p><b>Konkurrence -</b> Forntie Solo sidste game spilles og deltagernes bedste 10 games indsamles</p>
-            <p>Præmie overrækkes efter udregning af point</p></td>
+        <td><p><b>Konkurrence -</b> Tid afsat til Forntie Duo</p>
+            </td>
     </tr>
     <tr>
         <td>23:00</td>
-        <td><p><b>Konkurrence -</b> Tid afsat til Fortnite Duo (Evt. Grand finals)</p>
+        <td><p><b>Konkurrence -</b> Tid afsat til Fortnite Duo Grand finals</p>
         <p>Præmie overrækkes kort efter endt konkurrence</p></td>
     </tr>
 </table>

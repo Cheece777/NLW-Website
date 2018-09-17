@@ -9,29 +9,30 @@
   </tr>
   <tr>
     <td>18:30</td>
-    <td>Praktisk information og velkomst tale</td>
+    <td><p>Praktisk information og velkomst tale</p>
+        <p>Tilmelding til Fortnite Solo sidste chance</p></td>
   </tr>
   <tr>
-    <td>19:30</td>
-    <td><p>Tilmelding til Fortnite sidste chance</p>
+    <td>19:00</td>
+    <td><p><b>Konkurrence -</b> Fortnite Solo starter</p>
+        <p>Det fælles ready-up game for Fortnite starter!</p>
       <p><b>Konkurrence -</b> Minecraft serveren starter</p></td>
   </tr>
   <tr>
     <td>20:00</td>
-    <td><p><b>Konkurrence -</b> Fortnite Solo starter</p>
-        <p>Det fælles ready-up game for Fortnite starter!</p></td>
+      <td><p>Husk at få spillet Fortnite Solo games</p></td>
   </tr>
   <tr>
     <td>22:00</td>
-    <td><p><b>Konkurrence -</b> Fortnite Duo starter</p>
-        <p>Tid til Fortnite Duo (Hvis dette er blevet stemt igennem)</p></td>
+    <td><p>Husk at få spillet Fortnite Solo games</p></td>
   </tr>
   <tr>
     <td>00:00</td>
-    <td><p><b>Konkurrence -</b> Tid afsat til Fortnite Duo konkurrencen (Husk at få spillet Fortnite Solo games også!)</p></td>
+    <td><p><b>Konkurrence -</b> Fortnite Solo slutter og der optælles point</p>
+    <p>Vinderen kåres og præmieoverrækkelse</p></td>
   </tr>
   <tr>
-    <td>01:30</td>
+    <td>01:00</td>
       <td><p><b>Konkurrence -</b> TrackMania server åbnes og turneringen starter - Vinder kåres derefter</p></td>
   </tr>
 </table>

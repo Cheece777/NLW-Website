@@ -51,8 +51,8 @@
         </div>
         <li class="list-group-item">§2.7 Efter første game, er det op til deltageren selv at spille de resterende games</li>
         <div class="panel-body">
-            <p>Når turneringen slutter, vælger hver deltager de 10 games, de vil have skal tælle med i konkurrencen.
-                <br />For at kunne bevise antal <b>Eliminations</b> og/eller <b>Victory Royales</b> SKAL deltageren selv screenshotte, som vil blive brugt til sammenligning. Hvis man er en haj til spillet og har droppet en <b>20-bomb</b> skal dette selvfølgelig også screenshottes.
+            <p>Turneringen slutter kl. 00:00 Fredag nat. Hver spiller har spillet de 10 games, og skrevet ned antal kills/wins.
+                <br />For at kunne bevise antal <b>Eliminations</b> og/eller <b>Victory Royales</b> SKAL deltageren sætte replays til, som vil blive brugt til sammenligning. Hvis man er en haj til spillet og har droppet en <b>20-bomb</b> skal dette selvfølgelig også screenshottes.
                 <br />Vi regner dernæst sammen på hvor mange points man har fået, og så bliver der udråbt en vinder.</p>
         </div>
     </ul>
