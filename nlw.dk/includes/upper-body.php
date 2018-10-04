@@ -30,48 +30,6 @@
         </div>
     
     <script>
-     /*   function httpGetAsync(url, callback)
-        {
-            let xmlHttp = new window.XMLHttpRequest();
-            xmlHttp.onreadystatechange = function() {
-                if (xmlHttp.readyState === 4) {
-                    if (xmlHttp.status === 200) {
-                        var response = xmlHttp.getResponseHeader("Available-Tickets"); // Eller available-tickets, eller Available-Tickets
-                        callback(parseInt(response));
-                    } else {
-                        console.error("Got wrong status code");
-                    }
-                }
-            };
-            xmlHttp.open("GET", url, true); // true for asynchronous
-            xmlHttp.setRequestHeader("X-PLACE2BOOK-API-TOKEN", "4defa1c56d8e554f7897d4ebf29c3c3c");
-            xmlHttp.setRequestHeader("X-PLACE2BOOK-EVENT-ID", "131910");
-            xmlHttp.timeout = 5000;
-            xmlHttp.send();
-        }
-
-        function handler(availableTickets){
-            var remainingSeats = availableTickets;
-
-            var totalSeats = 72; // Så mange pladser vi i alt har
-            var soldSeats = totalSeats-remainingSeats;  // Solgte pladser
-
-            var procentvis = soldSeats/totalSeats*100;
-            var fixedProcentvis = procentvis.toFixed(0);
-            var procentvisString = fixedProcentvis;
-            var totalPrizePool = 3000;
-
-
-            document.getElementById("seats").innerHTML = remainingSeats;
-            document.getElementById("procentSeats").innerHTML = totalPrizePool/100*procentvisString;
-            document.getElementById("progressbarProcent").style.width = fixedProcentvis + "%";
-        }
-
-        const url = 'https://api.place2book.com/event_api/available_tickets';
-        httpGetAsync(url, handler);
-        */
-
-        // var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 
         function httpGetAsync(url, callback)
         {
@@ -91,7 +49,7 @@
             };
             xmlHttp.open("GET", proxyUrl, true);
             xmlHttp.setRequestHeader("X-PLACE2BOOK-API-TOKEN", "4defa1c56d8e554f7897d4ebf29c3c3c");
-            xmlHttp.setRequestHeader("X-PLACE2BOOK-EVENT-ID", "131910");
+            xmlHttp.setRequestHeader("X-PLACE2BOOK-EVENT-ID", "149616");
             xmlHttp.timeout = 20000;
             xmlHttp.send();
         }
@@ -114,18 +72,6 @@
 
         const serviceUrl = 'https://api.place2book.com/event_api/available_tickets';
         httpGetAsync(serviceUrl, handler);
-
-     //   var soldSeats = 15;  // Solgte pladser (Her får vi forhåbentlig en API)
-     //   var totalSeats = 72; // Så mange pladser vi i alt har
-     //   var procentvis = soldSeats/totalSeats*100;
-     //   var fixedProcentvis = procentvis.toFixed(0);
-     //   var procentvisString = fixedProcentvis;
-     //   var totalPrizePool = 3000;
-
-      //  var remainingSeats = totalSeats - soldSeats;  // <----- her jeg gerne vil have available tickets ind
-    //    document.getElementById("seats").innerHTML = remainingSeats;
-     //   document.getElementById("procentSeats").innerHTML = totalPrizePool/100*procentvisString;
-      //  document.getElementById("progressbarProcent").style.width = fixedProcentvis + "%";
     </script>
 </div>
               </li>
@@ -141,7 +87,7 @@
 
                     <script>
                     // Set the date we're counting down to
-                    var countDownDate = new Date("Sep 21, 2018 18:00:00").getTime();
+                    var countDownDate = new Date("Nov 16, 2018 18:00:00").getTime();
 
                     // Update the count down every 1 second
                     var x = setInterval(function() {
