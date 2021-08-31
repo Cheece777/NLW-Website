@@ -157,7 +157,7 @@
                   <li><a href="<?php echo filter_input(INPUT_SERVER, '__DIR__').'/historie';?>">Historien om NLW</a></li>
                 </ul>
               </li>
-              <li><a href="<?php echo filter_input(INPUT_SERVER, '__DIR__').'/regler#coronaAnchor';?>">COVID-19 / CORONA information</a></li>
+              <!-- <li><a href="<?php echo filter_input(INPUT_SERVER, '__DIR__').'/regler#coronaAnchor';?>">COVID-19 / CORONA information</a></li> -->
             </ul>
 
             <!-- Nav Bar right side -->

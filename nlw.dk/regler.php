@@ -53,7 +53,7 @@
     </div>
   </div>
   
-  <div class="panel panel-primary">
+  <!-- <div class="panel panel-primary">
     <div class="panel-heading">
       <h3 class="panel-title">COVID-19 / CORONA retningslinjer</h3><a name="coronaAnchor"></a>
     </div>
@@ -85,7 +85,7 @@
         <li class="list-group-item"><a href="https://kum.dk/fileadmin/KUM/Documents/COVID-19_DOX/Retningslinjer_for_genaabning_af_kulturproduktioner_og_arrangementer_med_siddende.pdf?fbclid=IwAR1w_pBNp7NtZT0hxtaFsiA38zpNVa-6GFDyhED_1xeM3hzplYBrtrFfyNA">Kulturministeriets retningslinjer for kulturarrangementer</a></li>
       </ul>  
     </div>
-  </div>
+  </div> -->
   
 
   <?php include filter_input(INPUT_SERVER, 'DOCUMENT_ROOT') . '/includes/lower-body.php';?>
