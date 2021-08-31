@@ -16,7 +16,8 @@
   <div class="panel panel-primary">
     <div class="panel-heading banner-trackmania"></div>
     <div class="panel-body">
-      <p>Folk har fået sat sig og man er kommet tilbage i gaming rutinen, og her slår NLW dørene op for den store Trackmania turnering med høj musik og masser af stemning!</p>
+      <!--<p>Folk har fået sat sig og man er kommet tilbage i gaming rutinen, og her slår NLW dørene op for den store Trackmania turnering med høj musik og masser af stemning!</p>-->
+      <p>Udgået turnering - Kommer IKKE til NLW#22</p>
     </div>
     <div class='panel-heading'>§1 Format</div>
     <ul class="list-group">

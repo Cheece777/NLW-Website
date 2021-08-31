@@ -23,14 +23,17 @@
 
 <div class="panel panel-primary">
     <div class="panel-heading banner-fortnite"></div>
-    <div class="panel-body">
+   <!-- <div class="panel-body">
         <p>NLW's Fortnite turnering! Winner, winner - eat the others for dinner! Skyd dig gennem modstanderne og vis hvem der ikke er for dinner!</p>
         <a href="" target="_blank"><button type="button" disabled class="btn btn-default btn-block tournament-button center-block" title="Tilmelding sker ved NLW start">Tilmeld</button></a>
     </div>
 
-    <div class="panel-body">
+     <div class="panel-body">
         <p>I år har vi 2 forskellige former for gamemodes i Fortnite Battle Royale. I kan være med til at bestemme hvilke af disse 2 gamemodes I fortrækker at spille til LAN'et.
             <br />Hvilken gamemode vi spiller, vil blive bestemt via. en afstemning til selve NLW. Ved mange deltagere/stemmer kan begge turneringer blive en realitet.</p>
+        <h2><b>Gamemode: Solo</b></h2>
+    </div> -->
+    <div class="panel-body">
         <h2><b>Gamemode: Solo</b></h2>
     </div>
     <div class='panel-heading'>§1 Format</div>
@@ -54,6 +57,7 @@
             <p>Turneringen slutter kl. 00:00 Fredag nat. Hver spiller har spillet de 10 games, og skrevet ned antal kills/wins.
                 <br />For at kunne bevise antal <b>Eliminations</b> og/eller <b>Victory Royales</b> SKAL deltageren sætte replays til, som vil blive brugt til sammenligning. Hvis man er en haj til spillet og har droppet en <b>20-bomb</b> skal dette selvfølgelig også screenshottes.
                 <br />Vi regner dernæst sammen på hvor mange points man har fået, og så bliver der udråbt en vinder.</p>
+        <li class="list-group-item">§2.7 Turneringen afholdes kun ved mindst 12 tilmeldinger</li>
         </div>
     </ul>
 
@@ -78,7 +82,9 @@
     <ul class="list-group">
         <li class="list-group-item">§1.1 I dette gamemode er dig og din makker sammen </li>
         <li class="list-group-item">§1.2 Det gælder om for dig og din makker at score flere <b>Eliminations</b>, end det modstander hold I er oppe imod</li>
-        <div class="panel-body">I dette gamemode vælger du en makker til at hjælpe dig igennem det intense og stressende <b>Sqaud Don't Fill Mode</b>. <br />Her teamer I op sammen med det hold I skal spille imod. Det vil sige at I ikke lander det samme sted når din makker og dig hopper ud af kamp bussen. <br />I dette gamemode gælder det om at få flest kills over 3 games imod det andet hold i spiller imod. <br />Det er knockout, hvis du taber til det andet hold, er jeres hold ude.</div>
+        <div class="panel-body">I dette gamemode vælger du en makker til at hjælpe dig igennem det intense og stressende <b>Sqaud Don't Fill Mode</b>. <br />Her teamer I op sammen med det hold I skal spille imod. Det vil sige at I ikke lander det samme sted når din makker og dig hopper ud af kamp bussen. <br />
+        I dette gamemode gælder det om at få flest kills over 3 games imod det andet hold i spiller imod. <br />
+        Der spilles dobbelt elimination og Grand Final spilles flest kills over 5 games.</div>
     </ul>
     <div class='panel-heading'>§2 Regler</div>
     <ul class="list-group">
@@ -89,6 +95,7 @@
         <div class="panel-body">
             <p>Lige så snart I kommer ind på startsøen, pinger din makker og dig jeres lokation I har tænkt jeg at lande. Det andet hold skal lande et andet sted. Man må altså ikke lande det samme sted. <br />Holdene aftaler imellem sig hvilket hold der vælger sted, og hvilket hold der derfor lander et andet sted.</p> </div>
         <li class="list-group-item">§2.6 Kampen slutter efter 3 games hvorefter holdet med flest <b>Eliminations</b> går videre</li>
+        <li class="list-group-item">§2.7 Turneringen afholdes kun ved mindst 8 tilmeldte hold</li>
     </ul>
 
     <div class='panel-heading'>§5 Snyd</div>

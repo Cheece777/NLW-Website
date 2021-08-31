@@ -19,7 +19,7 @@
       </div>
       <div class="panel-body">
         <p>Nøvling LAN Week afholdes ca. 3 gange årligt.</p>
-        <p>Næste NLW #20 afholdes fra 21. september kl. 18:00 til  23. september kl. 10:00.</p>
+        <p>Næste NLW #27 afholdes fra 22. oktober kl. 17:30 til  24. oktober kl. 10:00.</p>
       </div>
     </div>
   
@@ -94,6 +94,10 @@
             <span class="badge">15 kr/stk</span>
             Energidrik fl. varianter*
           </li>
+          <li class="list-group-item">
+            <span class="badge">15 kr/stk</span>
+            Cocio
+          </li>
           </li>
         </ul>
         
@@ -118,14 +122,14 @@
             <span class="badge">150 kr</span>
             Forudbestilling mere end 10 dage før /uden mad
           </li>
-          <li class="list-group-item" onclick="buyTicketFunc()">
+         <li class="list-group-item" onclick="buyTicketFunc()">
             <span class="badge">200 kr</span>
             Forudbestilling mindre end 10 dage før /med mad
           </li>
           <li class="list-group-item" onclick="buyTicketFunc()">
             <span class="badge">175 kr</span>
             Forudbestilling mindre end 10 dage før /uden mad
-          </li>
+          </li> 
           <li class="list-group-item">
             <span class="badge">200 kr</span>
             Billet i døren /uden mad
@@ -148,10 +152,10 @@
       </div>
       <div class="panel-body">
         <p>Madbilletten, man kan købe med sin pladsbillet, sikrer aftensmad lørdag aften, samt morgenmad lørdag og søndag morgen.</p>
-        <p>Aftensmaden lørdag aften kl. 19:00 består af all you can eat NLW-gryde*.</p>
+        <p>Aftensmaden lørdag aften kl. 19:00 består af Pulled Pork Burgere! (Her afregnes 2 burgere per deltager).</p>
         <p>Morgenmad lørdag og søndag kl. 08:30 består af rundstykker med marmelade, smør, pålægschokolade og juice/mælk/kaffe.</p>
 
-        <p>*NLW-gryde består af spaghetti med kødsovs, samt gulerod- og agurkestave.</p>
+
       </div>
     </div>
   
@@ -180,11 +184,22 @@
       </div>
       <div class="panel-body">
         <p>Nøvling LAN Week sørger altid for den bedst mulig forbindelse, (der kan opkræves på landet).</p>
-        <p>Hastighed: OVER 100/100 Mbit bredbånd, med en forbindelse på 1 Gbit(1000 Mbit) mellem deltagerne.</p>
+        <p>Hastighed: 100/100 Mbit bredbånd, med en forbindelse på 1 Gbit(1000 Mbit) mellem deltagerne.</p>
         <p>For at belaste bredbåndet mindst muligt, bedes deltagerne have forudinstalleret og opdateret spil hjemmefra - på den måde får alle den bedste gaming oplevelse.</p>
       </div>
     </div>
   
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title">Konkurrencer</h3>
+        </div>
+        <div class="panel-body">
+        <p>Nøvling LAN Week tager forbehold for antal deltagere, og retten til at annullere konkurrencer, hvis der ikke er nok tilmeldinger.</p>
+        <p>Reglerne for konkurrencerne, kan findes under de respektive konkurrence sider: <a href="konkurrencer.php">Konkurrencer</a></p>
+    </div>
+    </div>
+
+
     <div class="panel panel-primary">
       <div class="panel-heading">
         <h3 class="panel-title">Glemte sager</h3>

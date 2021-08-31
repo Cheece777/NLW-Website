@@ -24,15 +24,15 @@
   </tr>
   <tr>
     <td>22:00</td>
-    <td><p>Husk at få spillet Fortnite Solo games</p></td>
+      <td><p>Husk at få spillet Fortnite Solo games</p></td>
   </tr>
   <tr>
     <td>00:00</td>
     <td><p><b>Konkurrence -</b> Fortnite Solo slutter og der optælles point</p>
     <p>Vinderen kåres og præmieoverrækkelse</p></td>
   </tr>
-  <tr>
+  <!-- <tr>
     <td>01:00</td>
       <td><p><b>Konkurrence -</b> TrackMania server åbnes og turneringen starter - Vinder kåres derefter</p></td>
-  </tr>
+  </tr> -->
 </table>

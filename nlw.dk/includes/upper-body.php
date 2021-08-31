@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-sm-1 col-lg-2"></div>
     <div class="col-sm-10 col-lg-8">
-      
+
       <!-- ### HEADER ### -->
         <script type="text/javascript" src="webalizer/scripts.js"></script>
 <script>
@@ -10,7 +10,7 @@
 </script>
       <script src="<?php echo filter_input(INPUT_SERVER, '__DIR__').'/dist/js/jquery-1.12.4.min.js';?>"></script>
       <script src="<?php echo filter_input(INPUT_SERVER, '__DIR__').'/dist/js/bootstrap.min.js';?>"></script>
-      
+
       <nav class="navbar navbar-default">
         <div class="container-fluid hidden-xs">
           <div class="row">
@@ -28,13 +28,13 @@
 
             <div class="progress-bar" id="progressbarProcent" style="height:40px"><h4><span id="procentSeats"> </span> kr.</h4></div>
         </div>
-    
+
     <script>
 
         function httpGetAsync(url, callback)
         {
 
-            let xmlHttp = new window.XMLHttpRequest();
+            xmlHttp = new window.XMLHttpRequest();
             const proxyUrl = "https://cors-anywhere.herokuapp.com/" + url;
             xmlHttp.onreadystatechange = function() {
                 if (xmlHttp.readyState === 4) {
@@ -49,7 +49,7 @@
             };
             xmlHttp.open("GET", proxyUrl, true);
             xmlHttp.setRequestHeader("X-PLACE2BOOK-API-TOKEN", "4defa1c56d8e554f7897d4ebf29c3c3c");
-            xmlHttp.setRequestHeader("X-PLACE2BOOK-EVENT-ID", "149616");
+            xmlHttp.setRequestHeader("X-PLACE2BOOK-EVENT-ID", "272065");
             xmlHttp.timeout = 20000;
             xmlHttp.send();
         }
@@ -78,16 +78,16 @@
               <li class="col-xs-4">
                 <ul class="header-right-div">
                   <li class="header-right-div-li">
-                    <p><b><h2>NLW #20  <br> 21. - 23. september</h2></b></p>
+                    <p><b><h2>NLW #28  <br> 22. okt - 24. okt</h2></b></p>
                   </li>
                   <li class="header-right-div-li">
-                    
+
                     <!-- Display the countdown timer in an element -->
                     <b><h3><p id="demo"></p></h3></b>
 
                     <script>
                     // Set the date we're counting down to
-                    var countDownDate = new Date("Nov 16, 2018 18:00:00").getTime();
+                    var countDownDate = new Date("OCT 22, 2021 17:30:00").getTime();
 
                     // Update the count down every 1 second
                     var x = setInterval(function() {
@@ -108,14 +108,14 @@
                       document.getElementById("demo").innerHTML =days + "d " + hours + "t "
                       + minutes + "m " + seconds + "s ";
 
-                      // If the count down is finished, write some text 
+                      // If the count down is finished, write some text
                       if (distance < 0) {
                         clearInterval(x);
                         document.getElementById("demo").innerHTML = "Velkommen!";
                       }
                     }, 1000);
                     </script>
-                    
+
                   </li>
                 </ul>
               </li>
@@ -123,7 +123,7 @@
           </div>
 
         </div>
-        
+
         <div class="container-fluid" style="margin-top: -4px">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
@@ -139,7 +139,7 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-              <li><a onclick="buyTicketFunc();" href="javascript:;"><b>Køb Billet</b></a></li>
+              <li><a href="https://place2book.com/da/sw2/sales/9ycnvnh9du" target="_blank"><b>Køb Billet</b></a></li>
 
                 <li><a href="<?php echo filter_input(INPUT_SERVER, '__DIR__').'/generelt';?>">Generelt</a></li>
               <li class="dropdown">
@@ -157,6 +157,7 @@
                   <li><a href="<?php echo filter_input(INPUT_SERVER, '__DIR__').'/historie';?>">Historien om NLW</a></li>
                 </ul>
               </li>
+              <li><a href="<?php echo filter_input(INPUT_SERVER, '__DIR__').'/regler#coronaAnchor';?>">COVID-19 / CORONA information</a></li>
             </ul>
 
             <!-- Nav Bar right side -->
@@ -165,6 +166,5 @@
             </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
-        
-      </nav>
 
+      </nav>

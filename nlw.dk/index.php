@@ -3,7 +3,7 @@
 <head>
 
 
-    <script language="JavaScript" src="webalizer/scripts.js"></script>
+    <script language="JavaScript" src="public_html/webalizer/scripts.js"></script>
 
 
   <meta charset="utf-8">
@@ -19,7 +19,7 @@
 <body>
   <?php include filter_input(INPUT_SERVER, 'DOCUMENT_ROOT'). '/includes/upper-body.php'; ?>
 
-  <div class="panel panel-primary">
+ <!-- <div class="panel panel-primary">                  Sponsor udkommenteret da vi holder LAN'et selv og ikke har nogen/brug for nogen
     <div class="panel-heading">
       <h1 class="panel-title-large">Sponsorer</h1>
     </div>
@@ -36,7 +36,7 @@
         </li>
       </ul>
     </div>
-  </div>
+  </div> -->
   
   <div class="row">
     <div class="col-md-6">
@@ -69,12 +69,12 @@
             <a  href="<?php echo filter_input(INPUT_SERVER, '__DIR__').'/konkurrence/counterstrike';?>"><img class="img-responsive tournament-image center-block" src="/images/logo/cs-logo.png" alt="CS Tournament" height="80"></a>
           </div> -->
             <div class="col-md-6 col-sm-6 col-xs-12 header-div-sub">
-                <a  href="<?php echo filter_input(INPUT_SERVER, '__DIR__').'/konkurrence/fortnite';?>"><img class="img-responsive tournament-image center-block" src="/images/logo/fortnite-logo-new.png" alt="Fortnite Tournament" height="80"></a>
+                <a  href="<?php echo filter_input(INPUT_SERVER, '__DIR__').'/konkurrence/fortnite';?>"><img class="img-responsive tournament-image center-block" src="/images/logo/fortnite-logo.png" alt="Fortnite Tournament" height="80"></a>
                 <!--<button type="button" class="btn btn-default">Tilmeld</button>-->
             </div>
-          <div class="col-md-6 col-sm-6 col-xs-12 header-div-sub">
-            <a href="<?php echo filter_input(INPUT_SERVER, '__DIR__').'/konkurrence/trackmania';?>"><img class="img-responsive tournament-image center-block" src="/images/logo/trackmania-logo.png" alt="TM Tournament" height="80"></a>
-          </div>
+          <!-- <div class="col-md-6 col-sm-6 col-xs-12 header-div-sub">
+            <a href="<?php echo filter_input(INPUT_SERVER, '__DIR__').'/konkurrence/apexlegends';?>"><img class="img-responsive tournament-image center-block" src="/images/logo/apex-logo.png" alt="Apex Legends Tournament" height="80"></a>
+          </div> -->
           <div class="col-md-6 col-sm-6 col-xs-12 header-div-sub">
             <a href="<?php echo filter_input(INPUT_SERVER, '__DIR__').'/konkurrence/minecraft';?>"><img class="img-responsive tournament-image center-block" src="/images/logo/minecraft-logo.png" alt="MC Tournament" height="80"></a>
           </div>
@@ -105,7 +105,7 @@
           <img class="img-rounded hidden-xs" src="images/logo-program.PNG" alt="program-logo" height="170px" width="170px">
         </div>
         <div class="media-body">
-          <p>Læs her program oversigten over det kommende NLW - Programmet for NLW #20 er ikke opdateret endnu</p>
+          <p>Læs her program oversigten over det kommende NLW</p>
           <p><a class="btn btn-default btn-lg" href="<?php echo filter_input(INPUT_SERVER, '__DIR__').'/program';?>" role="button">Program</a></p>
         </div>
       </div>
